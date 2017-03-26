@@ -1,0 +1,10 @@
+ERROR	2017-03-26 14:59:26,359	0	com.vkb.plivosms.services.InboundService	[main]	Unable to get auth entity
+ERROR	2017-03-26 14:59:26,381	22	com.vkb.plivosms.services.SMSService	[main]	java.lang.NullPointerException
+ERROR	2017-03-26 14:59:26,382	23	com.vkb.plivosms.services.SMSService	[main]	java.lang.ArrayIndexOutOfBoundsException: 1
+ERROR	2017-03-26 14:59:26,383	24	com.vkb.plivosms.services.SMSService	[main]	com.vkb.plivosms.exception.PlivoForbiddenException: Unable to decipher auth method
+ERROR	2017-03-26 14:59:27,056	0	com.vkb.plivosms.services.OutboundService	[main]	Unable to get auth entity
+ERROR	2017-03-26 14:59:27,061	5	com.vkb.plivosms.services.SMSService	[main]	java.lang.NullPointerException
+ERROR	2017-03-26 14:59:27,062	6	com.vkb.plivosms.services.SMSService	[main]	java.lang.ArrayIndexOutOfBoundsException: 1
+ERROR	2017-03-26 14:59:27,062	6	com.vkb.plivosms.services.SMSService	[main]	com.vkb.plivosms.exception.PlivoForbiddenException: Unable to decipher auth method
+ERROR	2017-03-26 15:01:24,490	0	com.vkb.plivosms.services.InboundService	[qtp1617791695-12]	Unable to get auth entity
+ERROR	2017-03-26 15:01:24,924	434	com.vkb.plivosms.services.OutboundService	[qtp1617791695-17]	Unable to get auth entity
