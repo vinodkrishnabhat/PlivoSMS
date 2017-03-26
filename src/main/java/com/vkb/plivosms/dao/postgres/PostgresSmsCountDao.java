@@ -29,7 +29,7 @@ public class PostgresSmsCountDao extends PostgresDao implements ISmsCountDao{
     private static final String SEARCH_SMS_COUNT_SQL = "select id, from_number, start_time, counter from sms_count where from_number = ?";
     private static final String INSERT_SQL = "insert into sms_count (from_number, start_time, counter) values (?, ?, ?)";
     private static final String INCREMENT_COUNTER_SQL = "update sms_count set counter = counter + 1 where id = ? and from_number = ? and counter < " + THROTTLE_LIMIT;
-    private static final String RESET_COUNTER_SQL = "update sms_count set counter = 1, start_time = ? where id = ? and from_number = ?";
+    private static final String RESET_COUNTER_SQL = "update sms_count set counter = 0, start_time = ? where id = ? and from_number = ?";
 
     public SMSCountEntity getSmsCountEntity(String number) throws PlivoException{
         Connection connection = null;

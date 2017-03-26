@@ -75,7 +75,7 @@ public class TestOutbound extends TestCommon{
         assertEquals("", response[1]);
         assertEquals("outbound sms ok", response[0]);
 
-        for(int ctr = 0; ctr < 49; ctr++) {
+        for(int ctr = 0; ctr < 50; ctr++) {
             response = getResponse(from, to, text, username, password);
             assertEquals("", response[1]);
             assertEquals("outbound sms ok", response[0]);
