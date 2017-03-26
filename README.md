@@ -16,7 +16,7 @@ SQL in db/dbChangesV1.sql
 ```
 * Build the project from the code base directory
 ```
-ant all
+ant -f plivosms.xml all
 ```
 * Navigate to out/artifacts/server
 ```
@@ -35,7 +35,7 @@ java -cp .:PlivoSMS.jar:lib/* com.vkb.plivosms.RestServer
 ## Running the tests
 * Unit tests are already run as part of "all" ant target. Use the "runUnitTests" target to run only Unit tests.
 ```
-ant runUnitTests
+ant -f plivosms.xml runUnitTests
 ```
 
 * Automated tests can be run from the out/artifacts/automationTests folder. Ensure the server has been started as mentioned above. Provide the server URL in the command line appropriately.
