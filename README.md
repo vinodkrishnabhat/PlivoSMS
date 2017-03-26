@@ -1,5 +1,4 @@
-# Project Title
-Plivo SMS API (Test assignment)
+# Plivo SMS API (Test assignment)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running for development and testing purposes.
